@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    color: white;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../image/sea.jpg");
+}
+
+.heading{
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+.heading span{
+    color: orange;
+}
+.end-date{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.col{
+    margin: 150px 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col input{
+    width: 50%;
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.col label{
+    color: orange;
+    font-size: 23px;
+}
