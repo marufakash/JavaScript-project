@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#000000 50%,#ffb92a 50%);
+}
+.container{
+    width: 60%;
+    padding: 3em 1.8em;
+    font-size: 16px;
+    background-color: #201f28;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    transition: all 1s;
+}
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-gap: 10px;
+}
+.search-container input,button{
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+.search-container input{
+    padding: 8px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+}
+.search-container input:focus{
+    border-color: #ffffff;
+}
+.search-container button{
+    transition: all 1s;
+    border: none;
+    cursor: pointer;
+    background-color: #ffb92a;
+}
+.msg{
+    color: orange;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 500;
+}
+#result{
+    padding: 20px 0 0;
+    color: white;
+}
+.info{
+    display: flex;
+}
+.poster{
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.info-des{
+    padding: 0 20px;
+}
+.title{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.info-des p{
+    letter-spacing: 0.8;
+    opacity: 0.8;
+    padding: 6px 0;
+}
+.border{
+    margin-right: 5px;
+    padding: 3px 6px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.heading{
+    letter-spacing: 0.8px;
+    color: red;
+    padding-bottom: 20px;
+}
+.red{
+    color: red;
+}
+.icons i{
+    padding: 5px 0;
+    color: orange;
+}
+
+@media screen and (min-width: 500px) {
+    .container{
+        width: 90%;
+    }
+    .poster{
+        width: 150px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .container{
+        width: 80%;
+    }
+    .poster{
+        width: 260px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .container{
+        width: 70%;
+    } 
+    .poster{
+        width: 300px;
+        height: 400px;
+    }   
+}
