@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.Navbar {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #0c6168;
+}
+.Navbar-Items {
+    display: flex;
+}
+.Navbar_Link_toggle {
+    font-size: 20px;
+    display: none;
+    padding: 17px 0;
+}
+.Navbar-Link {
+    padding-right: 20px;
+}
+.Navbar-Heading h1 {
+    font-size: 37px;
+    font-weight: 500;
+    color: orange;
+}
+
+/* Link style starts here */
+
+.Navbar-Link a {
+    padding: 0 15px;
+    color: white;
+    font-size: 21px;
+}
+.Navbar-Link a:hover {
+    color: orange;
+}
+
+/* Responsive design starts here */
+
+@media screen and (max-width: 778px) {
+    .Navbar-Items,
+    .Navbar {
+        flex-direction: column;
+    }
+    .Navbar-Items {
+        display: none;
+    }
+    .Navbar_Link_toggle {
+        display: block;
+    }
+    .Navbar_ToggleShow {
+        display: flex;
+    }
+    .Navbar_Link_toggle {
+        align-self: flex-end;
+        cursor: pointer;
+        display: initial;
+        position: absolute;
+    }
+    .Navbar-Link {
+        padding: 5px 0;
+    }
+    .Navbar-logo {
+        display: none;
+    }
+}

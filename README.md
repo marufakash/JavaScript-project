@@ -14,3 +14,6 @@
 
 ### 5. Movie Guide App
 - https://marufakash.github.io/JavaScript-project/Movie-Guide-App/index.html
+
+### 6. Counter App
+- https://marufakash.github.io/JavaScript-project/Counter-App/index.html

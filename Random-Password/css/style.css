@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background-color: #0d363a;
+}
+.box{
+    padding: 10px;
+    width: 400px;
+    background-color: #072331;
+}
+input{
+    padding: 5px;
+}
+input:focus{
+    outline: none;
+}
+#pass-box{
+    width: 100%;
+    display: block;
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+.row{
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#btn{
+    width: 100%;
+    font-size: 17px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+}
