@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091921;
+}
+.container {
+    width: 500px;
+    height: 250px;
+    background-color: beige;
+}
+.quotes {
+    padding: 30px;
+    position: relative;
+}
+.btn {
+    text-align: center;
+}
+.quotes button {
+    padding: 8px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+}
+#author {
+    text-align: right;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 600;
+}
+#para {
+    font-weight: 500;
+}
+#para i{
+    color: #333;
+}

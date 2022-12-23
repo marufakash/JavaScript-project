@@ -1,39 +1,27 @@
-// getting data
-const departmentImg = ["./imges/bangla.jpg","./imges/botany.jpg","./imges/acce.png","./imges/arcitechere.png","./imges/english.jpg","./imges/bge.jpg","./imges/ir.jpg","./imges/phycies.jpg"];
-const teacherImg = ["./imges/teacher1.png","./imges/teacher2.png","./imges/teacher3.png","./imges/teacher4.png","./imges/teacher5.png","./imges/teacher6.png","./imges/teacher7.png","./imges/teacher8.png"]
-const departmentName = ["Bangla","Botany","Applied Chemistry & Chemical Engineering","Architecture","English","Biotechnology and Genetic Engineering","International Relations","Physics"];
+const photos =["./image/img1.jpg","./image/img2.jpg","./image/img3.jpg","./image/img4.jpg","./image/img5.jpg","./image/img6.jpg"];
 
 // finding elements
-const departmentBackground = document.querySelector(".department-bg");
-const teacherImage = document.querySelector(".teacher-img");
-const departmentNames = document.getElementById("department-name");
-
+image = document.getElementById("img");
 let count = 0;
 
-// getData()
-const getData = () => {
-    departmentBackground.src = departmentImg[count];
-    teacherImage.src = teacherImg[count];
-    departmentNames.innerText = departmentName[count];
-}
-
-// next()
 const next = () => {
     count++;
-    if(count > teacherImg.length){
+    
+    if(count >= photos.length) {
         count = 0;
-        getData();
-    }else{
-        getData();
+        image.src = photos[count];
+    }else {
+        image.src = photos[count];
     }
 }
-// prev()
+
 const prev = () => {
     count--;
-    if(count < 0){
-        count = teacherImg.length - 1;
-        getData();
-    }else{
-        getData();
+
+    if(count < 0) {
+        count = photos.length - 1;
+        image.src = photos[count];
+    }else {
+        image.src = photos[count];
     }
 }

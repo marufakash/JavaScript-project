@@ -1,0 +1,44 @@
+/* reset code starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset code ends */
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    background-color: beige;
+}
+.posts {
+    width: 100%;
+    padding: 20px;
+}
+.post {
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 500px) {
+    .post {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 700px) {
+    .post {
+        width: 46%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 992px) {
+    .post {
+        width: 23%;
+    }
+}

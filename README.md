@@ -17,3 +17,21 @@
 
 ### 6. Counter App
 - https://marufakash.github.io/JavaScript-project/Counter-App/index.html
+
+### 7. Navbar
+- https://marufakash.github.io/JavaScript-project/Navbar/index.html
+
+### 8. Image Slider
+- https://marufakash.github.io/JavaScript-project/Image-Slider/index.html
+
+### 9. Random Password Generator
+- https://marufakash.github.io/JavaScript-project/Random-Password/index.html
+
+### 10. Random Quotes Generator
+- https://marufakash.github.io/JavaScript-project/Random-Quotes-Project/index.html
+
+### 11. Automatic Slideshow
+- https://marufakash.github.io/JavaScript-project/Automatic-Slideshow/index.html
+
+### 12. Dynamic Cards
+- https://marufakash.github.io/JavaScript-project/Dynamic-Cards/index.html
