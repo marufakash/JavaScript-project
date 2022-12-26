@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+}
+.heading {
+    padding: 20px;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+}
+.row {
+    display: flex;
+    padding: 1% 5%;
+}
+/* Left row starts here */
+.left-row {
+    padding: 20px;
+    width: 45%;
+}
+.left-row input {
+    padding: 8px 10px;
+    width: 100%;
+    margin: 8px 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.left-row label {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+}
+.left-row button {
+    padding: 9px 20px;
+    background-color: #EEE;
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+    background-color: transparent;
+}
+.deposit-div {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.deposit-div input, button {
+    border: 1px solid green;
+}
+.deposit-div button:hover {
+    color: white;
+    background-color: green;
+}
+.withdraw-div {
+    padding: 20px;
+    border: 2px solid rgb(202, 39, 39);
+    border-radius: 5px;
+}
+.withdraw-div button, input {
+    border: 1px solid rgb(202, 39, 39);
+}
+.withdraw-div button:hover {
+    color: white;
+    background-color: rgb(202, 39, 39);
+}
+/* Left row ends here */
+
+/* Right row starts here */
+.right-row {
+    padding: 20px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+.right-row-upper {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right-row h1 {
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 10px 0;
+    font-size: 35px;
+    text-align: center;
+}
+.right-row h2 {
+    color: #333;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.current-deposit {
+    color: green;
+}
+.current-withdraw {
+    color: rgb(202, 39, 39);
+}
+.current-balence {
+    color: rgb(77, 74, 74);
+}
+.right-row-lower-div1 {
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.right-row-lower-div2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+/* Right row ends here */
+
+/* Responsive starts here */
+@media screen and (max-width: 900px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-row {
+        width: 100%;
+    }
+    .right-row {
+        width: 100%;
+    }
+}

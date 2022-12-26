@@ -35,3 +35,9 @@
 
 ### 12. Dynamic Cards
 - https://marufakash.github.io/JavaScript-project/Dynamic-Cards/index.html
+
+### 13. Bank Calculation App
+- https://marufakash.github.io/JavaScript-project/Bank-Calculation-App/index.html
+
+### 14. Dark Theme
+- https://marufakash.github.io/JavaScript-project/Dark-Theme/index.html

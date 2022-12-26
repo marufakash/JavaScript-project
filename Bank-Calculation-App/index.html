@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Calculation App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 class="heading">Bank Calculation App</h1>
+    <div class="row">
+        <div class="left-row">
+            <!-- Deposit div starts here -->
+            <div class="deposit-div">
+                <div>
+                    <label for="deposit-value">Please Enter the deposit amount : </label>
+                    <input type="number" name="deposit-value" id="deposit-value">
+                </div>
+                <div>
+                    <button class="deposit-btn">Deposit</button>
+                </div>
+            </div>
+            <!-- Deposit div ends here -->
+
+            <!-- Withdraw div starts here -->
+            <div class="withdraw-div">
+                <div>
+                    <label for="withdraw-title">Please enter the withdraw Title : </label>
+                    <input type="text" name="withdraw-title" id="withdraw-title">
+                </div>
+                <div>
+                    <label for="withdraw-amount">Please enter the withdraw amount : </label>
+                    <input type="number" name="widthdraw-amount" id="withdraw-value">
+                </div>
+                <div>
+                    <button class="withdraw-btn">Withdraw</button>
+                </div>
+            </div>
+            <!-- Withdraw div ends here -->
+        </div>
+
+        <div class="right-row">
+            <div class="right-row-upper">
+                <div class="deposit-div1">
+                    <h2>Deposit</h2>
+                    <h1 class="current-deposit">$ <span id="current-deposit">0</span></h1>
+                </div>
+    
+                <div class="withdraw-div1">
+                    <h2>Withdraw</h2>
+                    <h1 class="current-withdraw">$ <span id="current-withdraw">0</span></h1>
+                </div>
+    
+                <div class="balence-div">
+                    <h2>Balence</h2>
+                    <h1 class="current-balence">$ <span id="current-balence">0</span></h1>
+                </div>
+            </div>
+            <div class="right-row-lower">
+                <div class="right-row-lower-div1">
+                    <h3>Withdraw Title</h3>
+                    <h3>Withdraw Amount</h3>
+                    <h3>Currection</h3>
+                </div>
+                <div class="right-row-lower-div2">
+                    <h4>This is heading 1</h4>
+                    <h4>$55</h4>
+                    <span>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
